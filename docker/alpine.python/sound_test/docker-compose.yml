@@ -1,0 +1,9 @@
+services:
+  base:
+    image: test-environment.alpine.python
+    working_dir: /home/app
+    command: /bin/sh -c "pulseaudio --start && pip install -r requirements && tail -f /dev/null"
+    devices:
+      - /dev/snd:/dev/snd
+    volumes:
+      - .:/home/app

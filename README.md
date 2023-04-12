@@ -30,6 +30,10 @@ El repositorio está estructurado en carpetas por categorías relevantes:
     - React
         - Proyecto 1 en React
         - Proyecto 2 en React
+- Contenedores
+    - Docker
+        - Proyecto 1 en Docker
+        - Proyecto 2 en Docker
 
 ## Proyectos destacados
 
