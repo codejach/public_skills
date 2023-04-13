@@ -32,7 +32,7 @@ El repositorio está estructurado en carpetas por categorías relevantes:
         - Proyecto 2 en React
 - Contenedores
     - Docker
-        - Proyecto 1 en Docker
+        - alpine.python: Development for sound testing written in python on alpine system.
         - Proyecto 2 en Docker
 
 ## Proyectos destacados
