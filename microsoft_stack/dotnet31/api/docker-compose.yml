@@ -1,0 +1,10 @@
+services:
+  base:
+    image: test-environment.alpine
+    working_dir: /home/app
+    command: sh -c 'dotnet run --configuration Debug --project api --urls "http://0.0.0.0:5000;https://0.0.0.0:5001"'
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+    volumes:
+      - .:/home/app
