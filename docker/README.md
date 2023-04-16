@@ -1,4 +1,4 @@
-# List projects
+# Project list
 
 Here you can see the list of projects related to the Docker system.
 
