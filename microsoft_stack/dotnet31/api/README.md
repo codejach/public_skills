@@ -46,6 +46,6 @@ make dev
 
 1. The container cannot be attached via Visual Studio Code because the minimum requirements for it to run are Alpine 3.9
 2. The container is built with Alpine 3.8 because this version includes libssl1.0
-3. The container is built with libssl1.0 because .NET SDK 3.1 is not backward compatible.
+3. The container is built with libssl1.0 because .NET SDK 3.1 is not supported in higher versions.
 
 If you want to use Visual Studio Code in this project, please configure Dockerfile and manually download libssl1.0 and build the container using Alpine 3.9 or higher, the detailed process will not be covered in this project.
