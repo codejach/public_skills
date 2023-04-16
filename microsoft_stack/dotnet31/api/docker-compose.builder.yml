@@ -1,0 +1,11 @@
+services:
+  base:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: test-environment.alpine
+  install:
+    extends:
+      service: base
+    volumes:
+      - .:/home/app
